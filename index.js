@@ -4,7 +4,7 @@ const book = require('./routes/book')
 const comment = require('./routes/comment')
 const app = express()
 
-mongoose.connect('mongodb+srv://chris:chris@book-db.z5ex1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://chris:chris@book-db.z5ex1.mongodb.net/Book-DB?retryWrites=true&w=majority')
 .then(() => console.log('Connected to MongoDB...'))
 // .catch(err => console.error('Could not connect to MongoDB...'))
 
